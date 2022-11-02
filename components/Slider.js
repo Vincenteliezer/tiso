@@ -10,13 +10,13 @@ import bg5 from '../public/images/bg5.jpg'
 
 function Slider() {
   return (
-    <div className="mt-4">
+    <div className="">
         <Carousel wrapAround={true} autoplay={true}>
-        <Image src={bg1}  />
-        <Image src={bg2}  />
-        <Image src={bg3}  />
-        <Image src={bg4}  />
-        <Image src={bg5}  />
+        <Image src={bg1} alt="slider image" priority  />
+        <Image src={bg2} alt="slider image" priority />
+        <Image src={bg3} alt="slider image" priority />
+        <Image src={bg4} alt="slider image" priority />
+        <Image src={bg5} alt="slider image" priority />
       </Carousel>
     </div>
   )
