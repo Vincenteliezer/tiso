@@ -10,7 +10,7 @@ function NavBarTop() {
         <div className="flex items-center justify-between px-3 md:px-0 py-3 max-w-7xl mx-auto">
           {/* LOGO  */}
           <div className="flex items-center space-x-2">
-            <Image src={tisologo3}  height={70} width={70} />
+            <Image src={tisologo3} alt="tiso logo"  height={70} width={70} />
             <div>
               <h1 className="text-4xl font-bold text-yellow-400 shadow-xl w-fit px-4 py-1 bg-white rounded-full">TISO</h1>
               <h6 className="text-xs text-white md:hidden">Transworld International Sports Organization</h6>
