@@ -21,7 +21,7 @@ function SectionTiso() {
       <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-4 px-4">
         <div>
           <div className="flex items-center space-x-4">
-            <Image src={tisologo3} height={70} width={70} />
+            <Image src={tisologo3} alt="tiso logo" height={70} width={70} />
             <h1 className="text-3xl font-black text-gray-700">TISO</h1>
           </div>
 
