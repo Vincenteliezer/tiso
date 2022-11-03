@@ -62,10 +62,10 @@ function SectionTiso() {
           <h1 className="text-2xl font-black text-gray-700">
             WHAT WE STAND FOR
           </h1>
-          <Accordion className="mt-5 shadow-lg p-4 ">
+          <Accordion className="mt-5  p-4 ">
             <AccordionItem>
-              <AccordionHeader>
-                <h3 className="text-gray-700 font-bold text-xl">SAFETY</h3>
+              <AccordionHeader className="w-full text-start hover:bg-gray-200 px-2 py-2">
+                <h3 className="text-gray-700 font-bold text-xl w-full">SAFETY</h3>
               </AccordionHeader>
 
               <AccordionBody className="my-2">
@@ -80,7 +80,7 @@ function SectionTiso() {
               </AccordionBody>
             </AccordionItem>
             <AccordionItem>
-              <AccordionHeader>
+              <AccordionHeader className="w-full text-start hover:bg-gray-200 px-2 py-2">
                 <h3 className="text-gray-700 font-bold text-xl">
                   CUSTOMER CARE
                 </h3>
@@ -99,7 +99,7 @@ function SectionTiso() {
               </AccordionBody>
             </AccordionItem>
             <AccordionItem>
-              <AccordionHeader>
+              <AccordionHeader className="w-full text-start hover:bg-gray-200 px-2 py-2">
                 <h3 className="text-gray-700 font-bold text-xl">INTEGRITY</h3>
               </AccordionHeader>
 

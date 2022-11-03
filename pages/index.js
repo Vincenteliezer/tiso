@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import NavBar from "../components/NavBarTop";
 import SectionTiso from "../components/SectionTiso";
-import Carousel from "../components/Slider";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -17,9 +17,9 @@ export default function Home() {
       </Head>
       {/* NAVBAR  */}
       <NavBar />
-      <main className="mx-auto max-w-7xl">
-        {/* CAROUSEL  */}
-        <Carousel />
+      {/* CAROUSEL  */}
+      <Slider />
+      <main className="container mx-auto">
         <div>
           <SectionTiso />
         </div>

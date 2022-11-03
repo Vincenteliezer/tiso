@@ -19,7 +19,7 @@ function OffCanvas() {
           <AccordionBody>
             <div className="accordion-body">
               <div className="">
-                <ul className="flex flex-col space-y-3  text-xs text-yellow-400 md:text-lg py-4">
+                <ul className="flex flex-col space-y-3  text-yellow-400 md:text-lg py-4">
                   <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
                     Home
                   </li>
