@@ -16,7 +16,7 @@ function ProviderSection() {
        
         </h3>
         <h3 className="text-sm mt-3 top-1/2 w-full text-center md:text-lg font-normal absolute   text-yellow-400 p-5">
-          <button className="bg-yellow-500 px-4 py-3 rounded-lg text-white font-bold hover:bg-yellow-600 active:scale-75">JOIN US</button>
+          <button className="bg-yellow-500 px-4 py-3 rounded-lg text-white font-bold mt-3 hover:bg-yellow-600 active:scale-75">JOIN US</button>
         </h3>
     
       </div>

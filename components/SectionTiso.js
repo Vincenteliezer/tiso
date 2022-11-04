@@ -53,7 +53,7 @@ function SectionTiso() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mt-6 md:mt-0">
           <h1 className="text-2xl font-black text-gray-700">
             WHAT WE STAND FOR
           </h1>
