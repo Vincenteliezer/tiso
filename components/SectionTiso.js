@@ -3,22 +3,17 @@ import Image from "next/image";
 import tisologo3 from "../public/images/tisologo3.png";
 import {
   AdjustmentsHorizontalIcon,
-  Bars3Icon,
   HandThumbUpIcon,
+  LightBulbIcon,
   TrophyIcon,
   UserGroupIcon,
+  UserPlusIcon,
 } from "@heroicons/react/24/solid";
-import {
-  Accordion,
-  AccordionBody,
-  AccordionHeader,
-  AccordionItem,
-} from "react-headless-accordion";
 
 function SectionTiso() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-4 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-4 px-4 place-items-center">
         <div>
           <div className="flex items-center space-x-4">
             <Image src={tisologo3} alt="tiso logo" height={70} width={70} />
@@ -62,59 +57,37 @@ function SectionTiso() {
           <h1 className="text-2xl font-black text-gray-700">
             WHAT WE STAND FOR
           </h1>
-          <Accordion className="mt-5  p-4 ">
-            <AccordionItem>
-              <AccordionHeader className="w-full text-start hover:bg-gray-200 px-2 py-2">
-                <h3 className="text-gray-700 font-bold text-xl w-full">SAFETY</h3>
-              </AccordionHeader>
 
-              <AccordionBody className="my-2">
-                <div className="accordion-body">
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Fugiat consectetur est soluta ad? Sint odio qui dolores?
-                    Nobis iure veritatis quod, aut voluptate ut, voluptas
-                    reiciendis repellendus obcaecati autem quibusdam.
-                  </p>
-                </div>
-              </AccordionBody>
-            </AccordionItem>
-            <AccordionItem>
-              <AccordionHeader className="w-full text-start hover:bg-gray-200 px-2 py-2">
-                <h3 className="text-gray-700 font-bold text-xl">
-                  CUSTOMER CARE
-                </h3>
-              </AccordionHeader>
-
-              <AccordionBody className="my-2">
-                <div className="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Repellendus animi explicabo ratione? Praesentium commodi
-                    unde reprehenderit laboriosam a atque tempore sapiente
-                    blanditiis sint ipsa, molestiae, veniam qui dolorem soluta
-                    quas.
-                  </p>
-                </div>
-              </AccordionBody>
-            </AccordionItem>
-            <AccordionItem>
-              <AccordionHeader className="w-full text-start hover:bg-gray-200 px-2 py-2">
-                <h3 className="text-gray-700 font-bold text-xl">INTEGRITY</h3>
-              </AccordionHeader>
-
-              <AccordionBody>
-                <div className="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quidem distinctio adipisci ducimus velit assumenda sint
-                    maxime dicta quos incidunt itaque blanditiis ipsa saepe
-                    quisquam vitae aliquam, iste aperiam qui quae.
-                  </p>
-                </div>
-              </AccordionBody>
-            </AccordionItem>
-          </Accordion>
+          <div className="space-y-3 mt-5 ml-4">
+            <div className="flex items-center space-x-3 hover:bg-gray-100 cursor-pointer">
+              <HandThumbUpIcon className="h-14 w-14 bg-[#23282d] p-2 text-yellow-500" />
+              <div>
+                <h1 className="text-xl font-bold text-gray-800">Mission</h1>
+                <h6 className="text-xs">
+                  We nurture, support and promote athletics talents
+                </h6>
+              </div>
+            </div>
+            <div className="flex items-center space-x-3 hover:bg-gray-100 cursor-pointer">
+              <LightBulbIcon className="h-14 w-14 bg-[#23282d] p-2 text-yellow-500" />
+              <div>
+                <h1 className="text-xl font-bold text-gray-800">Vision</h1>
+                <h6 className="text-xs">
+                  To be a known organization that server equally
+                </h6>
+              </div>
+            </div>
+            <div className="flex items-center space-x-3 hover:bg-gray-100 cursor-pointer active:scale-90">
+              <UserPlusIcon className="h-14 w-14 bg-[#23282d] p-2 text-yellow-500" />
+              <div>
+                <h1 className="text-xl font-bold text-gray-800">Join Us</h1>
+                <h6 className="text-xs">
+                  We would like to work with talented athlete of all ages,
+                  nationality or gender
+                </h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

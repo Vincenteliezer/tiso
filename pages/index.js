@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import AwardSection from "../components/AwardSection";
 import NavBar from "../components/NavBarTop";
 import SectionTiso from "../components/SectionTiso";
 import Slider from "../components/Slider";
@@ -19,9 +20,16 @@ export default function Home() {
       <NavBar />
       {/* CAROUSEL  */}
       <Slider />
-      <main className="container mx-auto">
-        <div>
+      <main className="">
+        <div className="container mx-auto">
           <SectionTiso />
+          
+        </div>
+        <div className="w-full bg-gray-200 py-4 my-10">
+          <div className="container mx-auto">
+          <AwardSection />
+          </div>
+
         </div>
       </main>
     </div>
