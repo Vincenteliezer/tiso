@@ -7,18 +7,18 @@ function NavBarTop() {
   return (
     <>
       <nav className="w-full bg-[#509eb9]">
-        <div className="flex items-center justify-between px-3 md:px-0 py-3 max-w-7xl mx-auto">
+        <div className="flex items-center justify-between px-3 md:px-0 py-3 container mx-auto">
           {/* LOGO  */}
           <div className="flex items-center space-x-2">
             <Image src={tisologo3} alt="tiso logo"  height={70} width={70} />
-            <div>
+            <div >
               <h1 className="text-4xl font-bold text-yellow-400 shadow-xl w-fit px-4 py-1 bg-white rounded-full">TISO</h1>
-              <h6 className="text-xs text-white md:hidden">Transworld International Sports Organization</h6>
+              <h6 className="text-xs text-white md:hidden ">Transworld International Sports Organization</h6>
             </div>
           </div>
 
           {/* NAME  */}
-          <h1 className="text-white hidden md:text-4xl font-bold md:flex">
+          <h1 className="text-white hidden md:text-4xl font-bold md:block text-end">
             Transworld International Sports Organization
           </h1>
         </div>
