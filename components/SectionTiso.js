@@ -21,9 +21,9 @@ function SectionTiso() {
           </div>
 
           <p className="text-justify mt-6">
-            TransWorld Internation Sports Organization(TISO) was founded in 2013
-            as a sport organization that is geared towards nurturing,promoting
-            and managing athletes talent. It is a registered organization that
+            TransWorld International Sports Organization(TISO) was founded in 2013
+            as a sport organization that is geared towards nurturing, promoting
+            and managing athlete's talent. It is a registered organization that
             manages professional athletes of any nationality.
           </p>
           <div className="mt-5 grid grid-cols-1 md:grid-cols-2">

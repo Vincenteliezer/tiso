@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import AwardSection from "../components/AwardSection";
 import NavBar from "../components/NavBarTop";
+import ProviderSection from "../components/ProviderSection";
 import SectionTiso from "../components/SectionTiso";
 import Slider from "../components/Slider";
 
@@ -30,6 +31,9 @@ export default function Home() {
           <AwardSection />
           </div>
 
+        </div>
+        <div className="max-w-7xl mx-auto mb-10">
+          <ProviderSection />
         </div>
       </main>
     </div>

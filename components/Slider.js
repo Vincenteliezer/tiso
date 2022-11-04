@@ -20,12 +20,15 @@ function Slider() {
           alt="slider image"
           priority
           className="object-cover w-full h-[500px]"
+          
         />
+        
         <Image
           src={bg2}
           alt="slider image"
           className="w-full object-cover h-[500px]"
           priority
+          
         />
         <Image
           src={bg3}
