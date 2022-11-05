@@ -25,33 +25,38 @@ function Footer() {
           </h3>
 
           <ul className="space-y-2 mt-3 text-gray-300">
-            <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-              Home
-            </li>
+            <Link href="/">
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
+                Home
+              </li>
+            </Link>
+
             <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
               Progress
             </li>
             <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
               Athletes
             </li>
-            <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-              About
-            </li>
-            <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-              Contact
-            </li>
+            <Link href="/about">
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
+                About
+              </li>
+            </Link>
+            <Link href="/contact">
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
+                Contact
+              </li>
+            </Link>
           </ul>
         </div>
         <div>
           <h3 className="text-2xl font-bold mb-3 text-yellow-500">MEMBER</h3>
-
           <ul className="mt-3 text-gray-300">
             <Link href="/" className="my-2">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
                 USA Track and Field
               </li>
             </Link>
-
             <Link href="http://www.athleticskenya.or.ke/">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75 my-2">
                 Athletics Kenya

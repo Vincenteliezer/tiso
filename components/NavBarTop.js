@@ -50,9 +50,11 @@ function NavBarTop() {
                   About
                 </li>
               </Link>
-              <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
-                Contact
-              </li>
+              <Link href="/contact">
+                <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
+                  Contact
+                </li>
+              </Link>
               <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
                 Join
               </li>
