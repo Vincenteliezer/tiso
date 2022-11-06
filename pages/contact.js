@@ -4,13 +4,13 @@ import NavBarTop from "../components/NavBarTop";
 import FooterMedia from "../components/FooterMedia";
 import Image from "next/image";
 import gallery2 from "../public/images/gallery2.jpg";
-import "animate.css"
+
 
 function contact() {
   return (
     <>
       <NavBarTop />
-      <div className="animate__animated animate__zoomIn max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h4 className="text-2xl font-bold text-gray-700 my-10 text-center">
           CONTACT
         </h4>

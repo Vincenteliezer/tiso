@@ -30,19 +30,23 @@ function OffCanvas() {
                   <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
                     Progress
                   </li>
+                  <Link href="/athletes">
+                    <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
+                      Athletes
+                    </li>
+                  </Link>
 
-                  <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
-                    Athletes
-                  </li>
                   <Link href="/about">
                     <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
                       About
                     </li>
                   </Link>
+                  <Link href="/contact">
+                    <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
+                      Contact
+                    </li>
+                  </Link>
 
-                  <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
-                    Contact
-                  </li>
                   <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
                     Join
                   </li>
