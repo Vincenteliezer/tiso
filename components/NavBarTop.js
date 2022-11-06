@@ -42,9 +42,12 @@ function NavBarTop() {
               <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
                 Progress
               </li>
-              <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
-                Athletes
-              </li>
+              <Link href="/athletes">
+                <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
+                  Athletes
+                </li>
+              </Link>
+
               <Link href="/about">
                 <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
                   About
