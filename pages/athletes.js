@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import 'animate.css';
 import Footer from "../components/Footer";
 import FooterMedia from "../components/FooterMedia";
 import NavBarTop from "../components/NavBarTop";
@@ -20,12 +21,12 @@ function athletes() {
           src={authMar}
           className="mx-auto w-full h-[300px] object-cover brightness-50 absolute"
         />
-        <h4 className="absolute text-white text-3xl font-bold top-[100px] text-center w-full p-4">
+        <h4 className="animate__animated animate__zoomIn absolute text-white text-3xl font-bold top-[100px] text-center w-full p-4">
           TISO ATHLETES
         </h4>
       </div>
       <main className="container mx-auto">
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center mt-10 gap-6 p-2 md:p-0">
+        <div className="animate__animated animate__zoomIn grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center mt-10 gap-6 p-2 md:p-0">
           <div className="relative">
             <Image
               src={ath1}

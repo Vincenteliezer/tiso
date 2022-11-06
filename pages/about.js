@@ -5,6 +5,7 @@ import NavBar from "../components/NavBarTop";
 import FooterMedia from "../components/FooterMedia";
 import tisoBanner3 from "../public/images/tisoBanner3.jpg";
 import aboutProf from "../public/images/aboutProf.jpg";
+import "animate.css"
 
 function about() {
   return (
@@ -23,11 +24,11 @@ function about() {
           </h4>
         </div>
         <div className="max-w-7xl mx-auto my-10">
-          <h4 className="font-bold text-2xl text-gray-800 text-center md:text-start">
+          <h4 className="animate__animated animate__zoomIn font-bold text-2xl text-gray-800 text-center md:text-start">
             ABOUT US
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center mx-4 mt-4 content-start">
-            <div className="text-center h-full ">
+            <div className="animate__animated animate__bounceInLeft text-center h-full ">
               <Image src={aboutProf} className="h-72 w-72 rounded-lg" />
               <div className="mt-3">
                 <h4 className="font-bold text-xl text-gray-700">
@@ -38,7 +39,7 @@ function about() {
                 </h6>
               </div>
             </div>
-            <div className="h-full">
+            <div className="animate__animated animate__bounceInRight h-full">
               <h5 className="text-normal text-gray-600 mt-4 md:mt-0 text-justify">
                 TransWorld Internation Sports Organization(TISO) was founded in
                 2013 as a sport organization that is geared towards
