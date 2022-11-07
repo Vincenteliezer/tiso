@@ -7,7 +7,9 @@ import ProviderSection from "../components/ProviderSection";
 import SectionTiso from "../components/SectionTiso";
 import Slider from "../components/Slider";
 
+
 export default function Home() {
+  
   return (
     <div className="">
       <Head>
@@ -23,7 +25,7 @@ export default function Home() {
       {/* CAROUSEL  */}
       <Slider />
       <main className="">
-        <div className="container mx-auto">
+        <div className="container mx-auto " data-aos="fade-in">
           <SectionTiso />
         </div>
         <div className="w-full bg-gray-200 py-4 my-10">

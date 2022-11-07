@@ -11,10 +11,10 @@ function contact() {
     <>
       <NavBarTop />
       <div className="max-w-7xl mx-auto">
-        <h4 className="text-2xl font-bold text-gray-700 my-10 text-center">
+        <h4 className="text-2xl font-bold text-gray-700 my-10 text-center ">
           CONTACT
         </h4>
-        <div className=" grid grid-cols-1 md:grid-cols-2 rounded-xl p-2">
+        <div className=" grid grid-cols-1 md:grid-cols-2 rounded-xl p-2 gap-3">
           <div>
             <Image
               src={gallery2}
@@ -22,7 +22,7 @@ function contact() {
               className="h-[400px] object-cover rounded-xl w-full"
             />
           </div>
-          <div className="p-4">
+          <div className="p-4 border border-gray-300 shadow-md md:shadow-none rounded-xl">
             <form action="" className=" w-full h-full">
               <h4 className="text-xl font-bold text-gray-700">WRITE US A MEASSAGE</h4>
               <div className="mt-6">
