@@ -23,7 +23,7 @@ function about() {
           </h4>
         </div>
         <div className="max-w-7xl mx-auto my-10">
-          <h4 className="font-bold text-2xl text-gray-800 text-center md:text-start">
+          <h4 className="font-bold text-2xl text-gray-800 text-center md:text-start bg-gray-100 p-3 rounded-lg">
             ABOUT US
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center mx-4 mt-4 content-start">
@@ -51,10 +51,10 @@ function about() {
                   WHERE WE OPERATE
                 </h5>
                 <ul className="space-y-3 text-gray-600 mt-3">
-                  <li>TISO headquartered in Grand Prairie, Texas</li>
-                  <li>TISO Training camp in Santa Fe, New Mexico</li>
-                  <li>TISO Training Base Camp in Kapsabet Kenya</li>
-                  <li>TISO Training Base Camp in Ngong Kenya</li>
+                  <li>&#10004; TISO headquartered in Grand Prairie, Texas</li>
+                  <li>&#10004; TISO Training camp in Santa Fe, New Mexico</li>
+                  <li>&#10004; TISO Training Base Camp in Kapsabet Kenya</li>
+                  <li>&#10004; TISO Training Base Camp in Ngong Kenya</li>
                 </ul>
               </div>
             </div>

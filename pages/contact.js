@@ -4,11 +4,19 @@ import NavBarTop from "../components/NavBarTop";
 import FooterMedia from "../components/FooterMedia";
 import Image from "next/image";
 import gallery2 from "../public/images/gallery2.jpg";
-
+import Head from "next/head";
 
 function contact() {
   return (
     <>
+      <Head>
+        <title>TISO | Contact Us</title>
+        <meta
+          name="description"
+          content="Transworld International Sports organization"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <NavBarTop />
       <div className="max-w-7xl mx-auto">
         <h4 className="text-2xl font-bold text-gray-700 my-10 text-center ">
@@ -24,18 +32,24 @@ function contact() {
           </div>
           <div className="p-4 border border-gray-300 shadow-md md:shadow-none rounded-xl">
             <form action="" className=" w-full h-full">
-              <h4 className="text-xl font-bold text-gray-700">WRITE US A MEASSAGE</h4>
-              <div className="mt-6">
-                <label htmlFor="text" className="text-sm">Enter your Fullnames*</label>
+              <h4 className="text-xl font-bold text-gray-700">
+                WRITE US A MESSAGE
+              </h4>
+              <div className="mt-2">
+                <label htmlFor="text" className="text-sm">
+                  Enter Full Names*
+                </label>
                 <input
                   type="text"
                   htmlFor="text"
-                  placeholder="Enter your fullname"
+                  placeholder="Enter your full name"
                   className="h-12 px-4 focus:outline-0 bg-slate-100 w-full mt-1 text-base text-gray-700"
                 />
               </div>
-              <div className="mt-6">
-                <label htmlFor="email" className="text-sm">Enter your Email*</label>
+              <div className="mt-5">
+                <label htmlFor="email" className="text-sm">
+                  Enter Email*
+                </label>
                 <input
                   type="email"
                   htmlFor="email"
@@ -43,8 +57,26 @@ function contact() {
                   className="h-12  px-4 focus:outline-0 mt-1 bg-slate-100 w-full text-base text-gray-700"
                 />
               </div>
-              <textarea name="comment" id="" cols="30" rows="10" placeholder="Write a message" className="text-gray-700 w-full mt-4 h-12  px-4 focus:outline-0 bg-slate-100 p-2"></textarea>
-              <button type="submit" className="mt-5 bg-yellow-500 px-4 py-2 rounded-md text-white active:scale-75">SEND</button>
+              <div className="mt-5">
+                <label htmlFor="email" className="text-sm">
+                  Write Message
+                </label>
+                <textarea
+                  name="comment"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write a message"
+                  className="text-gray-700 w-full mt-1 h-12  px-4 focus:outline-0 bg-slate-100 p-2"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="mt-5 bg-yellow-500 px-4 py-2 rounded-md text-white active:scale-75"
+              >
+                SEND
+              </button>
             </form>
           </div>
         </div>
