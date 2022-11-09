@@ -26,10 +26,12 @@ function OffCanvas() {
                       Home
                     </li>
                   </Link>
+                  <Link href="/progress">
+                    <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
+                      Progress
+                    </li>
+                  </Link>
 
-                  <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
-                    Progress
-                  </li>
                   <Link href="/athletes">
                     <li className="cursor-pointer active:scale-75 hover:text-white hover:border-b">
                       Athletes

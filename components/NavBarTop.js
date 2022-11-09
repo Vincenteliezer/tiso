@@ -39,9 +39,12 @@ function NavBarTop() {
                 </li>
               </Link>
 
-              <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
-                Progress
-              </li>
+              <Link href="/progress">
+                <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
+                  Progress
+                </li>
+              </Link>
+
               <Link href="/athletes">
                 <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
                   Athletes
@@ -53,14 +56,24 @@ function NavBarTop() {
                   About
                 </li>
               </Link>
+
               <Link href="/contact">
                 <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
                   Contact
                 </li>
               </Link>
-              <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
-                Join
-              </li>
+
+              <Link href="#">
+                <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
+                  Join
+                </li>
+              </Link>
+
+              <Link href="#">
+                <li className="cursor-pointer active:scale-95 hover:text-white hover:border-b">
+                  Gallery
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
