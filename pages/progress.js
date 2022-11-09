@@ -36,6 +36,7 @@ function progress() {
       </Head>
       <NavBarTop />
       <main className="container mx-auto px-2 py-2">
+        <h4 className="text-xl font-bold my-4 text-yellow-400 bg-[#23282d] px-4 py-3 rounded-lg">OUR PROGRESS</h4>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="">
             <Image
