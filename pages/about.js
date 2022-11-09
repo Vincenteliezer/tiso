@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBarTop";
+import NavBarTop from "../components/NavBarTop";
 import FooterMedia from "../components/FooterMedia";
 import tisoBanner3 from "../public/images/tisoBanner3.jpg";
 import aboutProf from "../public/images/aboutProf.jpg";
@@ -10,7 +10,7 @@ function about() {
   return (
     <>
       <main>
-        <NavBar />
+        <NavBarTop />
         <div className="h-[300px] relative">
           <Image
             src={tisoBanner3}

@@ -5,6 +5,7 @@ import FooterMedia from "../components/FooterMedia";
 import Image from "next/image";
 import gallery2 from "../public/images/gallery2.jpg";
 import Head from "next/head";
+import ContactSection from "../components/ContactSection";
 
 function contact() {
   return (
@@ -79,6 +80,9 @@ function contact() {
               </button>
             </form>
           </div>
+        </div>
+        <div className="px-2">
+          <ContactSection />
         </div>
       </div>
       <div className="w-full bg-[#23282d] py-4 mt-10">

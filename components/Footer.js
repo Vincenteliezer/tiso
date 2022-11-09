@@ -27,24 +27,34 @@ function Footer() {
           <ul className="space-y-2 mt-3 text-gray-300">
             <Link href="/">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-                Home
+                &#9830; Home
+              </li>
+            </Link>
+            <Link href="/progress">
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75 mt-1">
+                &#9830; Progress
               </li>
             </Link>
 
-            <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-              Progress
-            </li>
-            <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-              Athletes
-            </li>
+            <Link href="/athletes">
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75 mt-1">
+                &#9830; Athletes
+              </li>
+            </Link>
+
             <Link href="/about">
-              <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-                About
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75 mt-1">
+                &#9830; About
               </li>
             </Link>
             <Link href="/contact">
-              <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-                Contact
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75 mt-1">
+                &#9830; Contact
+              </li>
+            </Link>
+            <Link href="/contact">
+              <li className="hover:text-yellow-400 cursor-pointer active:scale-75 mt-1">
+                &#9830; Gallery
               </li>
             </Link>
           </ul>
@@ -54,12 +64,12 @@ function Footer() {
           <ul className="mt-3 text-gray-300">
             <Link href="/" className="my-2">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75">
-                USA Track and Field
+                &#9830; USA Track and Field
               </li>
             </Link>
             <Link href="http://www.athleticskenya.or.ke/">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75 my-2">
-                Athletics Kenya
+                &#9830; Athletics Kenya
               </li>
             </Link>
           </ul>
@@ -70,12 +80,12 @@ function Footer() {
           <ul className="space-y-2 mt-3 text-gray-300">
             <Link href="https://www.iaaf.org/about-iaaf/documents/rules-regulations">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75 my-2">
-                Comply with IAAF Rules
+                &#9830; Comply with IAAF Rules
               </li>
             </Link>
             <Link href="https://www.iaaf.org/about-iaaf/documents/anti-doping">
               <li className="hover:text-yellow-400 cursor-pointer active:scale-75 my-2">
-                Comply with Anti-Doping Rules
+                &#9830; Comply with Anti-Doping Rules
               </li>
             </Link>
           </ul>
